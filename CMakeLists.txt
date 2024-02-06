@@ -1,17 +1,6 @@
 cmake_minimum_required(VERSION 3.0.2)
 project(geometric_shapes)
 
-# Set compile options
-set(PROJECT_COMPILE_OPTIONS
-  -Wall
-  -Wextra
-  -Wwrite-strings
-  -Wunreachable-code
-  -Wpointer-arith
-  -Wredundant-decls
-  -Wno-unused-parameter
-)
-
 list(APPEND CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake/")
 
 if(NOT CMAKE_CONFIGURATION_TYPES AND NOT CMAKE_BUILD_TYPE)
